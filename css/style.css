@@ -91,6 +91,10 @@ video {
   height: 734px;
   overflow: hidden;
 }
+#wrapper {
+        @media (max-width: 1440px) {
+            width: 1440px;
+        }
 #blok1 {
   height: 90px;
   background: #FFFFFF;
@@ -119,7 +123,7 @@ video {
   padding-top: 9px;
 }
 .centr {
-  background: url('/img/Fill4.png') 50% 50% no-repeat;
+  background: url('./img/Fill4.png') 50% 50% no-repeat;
   width: 100%;
   height: 100%;
   position: absolute;
@@ -260,7 +264,7 @@ video {
 .elem10 {
   width: 100%;
   height: 1338px;
-  background-image: url(/img/Rectangle.png);
+  background-image: url(./img/Rectangle.png);
 }
 .elem11 .text3 {
   font-family: 'Poppins';
