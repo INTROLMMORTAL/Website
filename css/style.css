@@ -91,10 +91,7 @@ video {
   height: 734px;
   overflow: hidden;
 }
-#wrapper {
-        @media (max-width: 1440px) {
-            width: 1440px;
-        }
+
 #blok1 {
   height: 90px;
   background: #FFFFFF;
